@@ -1,3 +1,4 @@
 - Learning Rate Optimizer
 - Model hyperparameter Tuning plxxxxxx
 - This dataset is extreeeeemly clean, so we need to select some way to dirty the dataset and find other sources (try the mobile clicks?)
+- Validation DATA!???!??!!
