@@ -6,6 +6,7 @@
 
 
 _Dataset Structure_
+
 |-- Preproccessed Data
     |-- Mobile Click 256_256
     |-- Camera Clicks 256_256
