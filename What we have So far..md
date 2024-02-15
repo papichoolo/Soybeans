@@ -1,20 +1,44 @@
 
-- Introduction to the problem: What we are doing is detecting deficiency and disease based on soyabean leaves data. This is a binary task. We take image dataset of soyabean leaves. we'll talk about the dataset of the leaf further ![image](https://github.com/papichoolo/Soybeans/assets/63441604/072e5f97-de6e-4a05-b665-05b97971c88e)
+_Introduction to the problem_ 
+What we are doing is detecting deficiency and disease based on soyabean leaves data. This is a binary task. We take image dataset of soyabean leaves. we'll talk about the dataset of the leaf further
+![[Pasted image 20240116135242.png]] 
+- This is an example of a diseased Leaf. 
+_What is a diseased Soyabean Leaf?_
+A dieseased Soyabean Leaf contains:
+![[Pasted image 20240127124250.png]]
+![[Pasted image 20240127124321.png]]
+_Dataset_
+- SoyNet Dataset, and what the dataset conatins.
 
-- This is an example of a diseased Leaf. (we will discuss what is meant by diseased soyabean leaves) 
-- **Dataset**- SoyNet Dataset, and what the dataset conatins.
+
 
 
 _Dataset Structure_
+<pre>
+- Preprocessed Images
+	- greyscale camera images
+	- colour camera images
+	- greyscale mobile pics
+	- colour mobile pics
+	- 256x256 images
+- Raw Images
+	- Camera Clicks
+	- Mobile Clicks
+</pre>
 
-|-- Preproccessed Data
-    |-- Mobile Click 256_256
-    |-- Camera Clicks 256_256
-    |-- Greyscale Data
-|-- Raw Data
-     |-- Camera Clicks
-	     |-- Healthy
-	     |-- Diseased
-    
 
 
+_Points That make this dataset good_ 
+- Essential attention given to Diseased Leaves. A probable reason for this may be the overabundance of diseased soybean leaves. 
+
+
+_Data Preparation_
+
+
+_Data Augmentation_
+
+
+_Model Training_
+
+
+_Results_ 
